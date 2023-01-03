@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --ff-primary: 'Poppins', sans-serif;
+
+    --fs-head: 2rem;
+    --fs-table-head: 1.4rem; 
+    --fs-table-body: 1.3rem;
+    --fc-header: #1C1C1C;
+    --bg-color-primary: #98F5FF;
+    --bg-table: #EEE9E9;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: auto;
+    
+    font-family: var(--ff-primary);
+}
+
+#app {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    padding: 4rem 0 4rem ;
+}
+
+header h1 {
+    text-transform: uppercase;
+    
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+.search input {
+    font-family: var(--ff-primary);
+    height: 3.2rem;
+    border: 1px solid #ccc;
+    border-radius: .4rem 0 0 .4rem;
+    padding: 0 .8rem;
+}
+
+.search button {
+    background-color: var(--bg-color-primary);
+    height: 3.2rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 0 .4rem .4rem 0;
+
+
+}
+
+.search button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+
+}
+
+table {
+    border-radius: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+thead th {
+    background: var(--bg-color-primary);
+    font-size: var(--fs-table-head);
+    text-align: left;
+    font-weight: normal;
+    padding: 1.5rem;
+}
+
+table th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+table th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+.user {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+table td {
+    font-size: var(--fs-table-body);
+    padding: 1.5rem;
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--bg-table);
+}
+
+td a{
+    text-decoration: none;
+    color: var(--fc-header);
+}
+
+td p {
+    font-weight: 600;
+}
+
+td button {
+    border: none;
+    background: transparent;
+    color: rgb(192, 35, 35);
+    font-size: var(--fs-head);
+}
+td button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+    color: red;
+}

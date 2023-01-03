@@ -4,6 +4,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aprendizados">Aprendizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -24,7 +25,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 "Github Favorites" é um projeto onde o usuário pode salvar seus desenvolvedores favoritos do github. Basta pesquisar pelo nome do usuário e clicar no botão + . Automaticamente será adicionado na lista de favoritos.
 
-Nesse projeto aprendi muito sobre tabelas no html, sudoclass no javascript e um pouco do orientaçãoa objeto
+## 🤓 Aprendizados
+Nesse projeto aprendi muito sobre tabelas no html, sudoclass no javascript e um pouco do orientação a objeto.
+Além de usar um api do github. Onde tive que pegar os dados dos usuários, converter e transferir para a tebela.
 
 
 <hr/>

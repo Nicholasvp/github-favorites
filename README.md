@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="capa" src="./.github/guessing-game.gif" width="100%">
+  <img alt="capa" src="./.github/github-fav.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
